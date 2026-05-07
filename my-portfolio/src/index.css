@@ -1,0 +1,21 @@
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 300;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+}
+
+
+:root {
+  --ink: #0a0a0a;
+  --paper: #f5f2ec;
+  --accent: #e8441a;
+  --accent2: #1a1aff;
+  --muted: #7a7268;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'DM Sans', sans-serif;
+}
