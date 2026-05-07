@@ -1,5 +1,7 @@
 {
-  "rewrites": [
+    "buildCommand": "vite build",
+    "outputDirectory": "dist",
+    "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
 }
