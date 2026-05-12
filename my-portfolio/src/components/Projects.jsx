@@ -35,6 +35,14 @@ function Projects() {
                             <span className="tag">Prototype</span>
                             <span className="tag">Research</span>
                         <div className="project-arrow">→</div>
+                        <div className="project-links">
+                            <button>
+                                <a href="https://github.com/tech-njeri/liora-online-public-library"
+                            className="project-link"  atarget="_blank" rel="noreferrer">
+                                ↗ Github
+                            </a>
+                            </button>
+                        </div>
                         </div>
                     </div>
                     {/* <div className="project-card fade-up delay-2">
