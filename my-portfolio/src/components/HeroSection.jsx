@@ -3,7 +3,7 @@ import './componentStyles.css'
 function HeroSection() {
     return (
         <>
-            <section className="hero">
+            <section className="hero" id='home'>
                 <div className="hero-left">
                     <p className='availability-profile'>AVAILABLE FOR PROJECTS</p>
                     <h1 className='hero-name'>

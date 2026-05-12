@@ -35,7 +35,7 @@ function Projects() {
                         <div className="project-arrow">→</div>
                         </div>
                     </div>
-                    <div className="project-card fade-up delay-2">
+                    {/* <div className="project-card fade-up delay-2">
                         <div className="project-num">03</div>
                         <p className="project-type">Web App</p>
                         <h3 className="project-title">Project Three</h3>
@@ -45,7 +45,7 @@ function Projects() {
                             <span className="tag">HTML/CSS</span>
                         <div className="project-arrow">→</div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

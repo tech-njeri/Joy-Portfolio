@@ -13,7 +13,9 @@ const useScrollAnimation = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
+        } else {
+          // ← this is the key change — removes the class when out of view
+          entry.target.classList.remove('is-visible');
         }
       });
     }, observerOptions);
@@ -21,7 +23,6 @@ const useScrollAnimation = () => {
     const fadeElements = document.querySelectorAll('.fade-up');
     fadeElements.forEach((el) => observer.observe(el));
 
-    // Cleanup when component unmounts
     return () => observer.disconnect();
   }, []);
 };

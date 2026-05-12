@@ -6,6 +6,7 @@ function Navbar(){
             <nav>
                 <div className="nav-logo">Joy</div>
                 <ul className="nav-links">
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#work">WORK</a></li>
                     <li><a href="#process">PROCESS</a></li>
