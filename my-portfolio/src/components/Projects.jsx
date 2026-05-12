@@ -17,10 +17,12 @@ function Projects() {
                             <span className="tag">API</span>
                         </div>
                         <div className="project-links">
-                            <a href="https://github.com/tech-njeri/liora-online-public-library"
+                            <button>
+                                <a href="https://github.com/tech-njeri/liora-online-public-library"
                             className="project-link"  atarget="_blank" rel="noreferrer">
                                 ↗ Github
                             </a>
+                            </button>
                         </div>
                     </div>
                     <div className="project-card fade-up delay-1">
