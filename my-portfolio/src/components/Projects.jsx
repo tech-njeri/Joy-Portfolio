@@ -17,7 +17,7 @@ function Projects() {
                             <span className="tag">API</span>
                         </div>
                         <div className="project-links">
-                            <button>
+                            <button className="github-link">
                                 <a href="https://github.com/tech-njeri/liora-online-public-library"
                             className="project-link"  atarget="_blank" rel="noreferrer">
                                 ↗ Github
@@ -35,14 +35,14 @@ function Projects() {
                             <span className="tag">Prototype</span>
                             <span className="tag">Research</span>
                         <div className="project-arrow">→</div>
+                        </div>
                         <div className="project-links">
-                            <button>
+                            <button className="github-link">
                                 <a href="https://github.com/tech-njeri/liora-online-public-library"
                             className="project-link"  atarget="_blank" rel="noreferrer">
                                 ↗ Github
                             </a>
                             </button>
-                        </div>
                         </div>
                     </div>
                     {/* <div className="project-card fade-up delay-2">
